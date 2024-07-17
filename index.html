@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>IdeaBrix</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <!-- Favicons -->
+    <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+    <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="js/sweetalert.min.css" rel="stylesheet" />
+    <!-- Template Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <style type="text/css">
+        #loader {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            background: rgba(0,0,0,0.2) url(assets/img/testmonialimg/loader.gif) no-repeat center center;
+            z-index: 10000;
+        }
+    </style>
+
+
+    <!-- =======================================================
+
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+</head>
+
+<body onload="createcaptcha()">
+
+    <!-- ======= Header ======= -->
+    <section id="topbar" class="topbar d-flex align-items-center">
+        <div class="container d-flex justify-content-center justify-content-md-between">
+            <div class="contact-info d-flex align-items-center">
+                <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">demo@ideabrix.com</a></i>
+                <i class="bi bi-phone d-flex align-items-center ms-4"><span>(+91) 88670 10561</span></i>
+            </div>
+            <div class="social-links d-none d-md-flex align-items-center">
+                <a href="#https://twitter.com/talentrackr" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#https://www.facebook.com/talentrackrtechnologies" class="facebook"><i class="bi bi-facebook"></i></a>
+                <!-- <a href="#" class="instagram"><i class="bi bi-instagram"></i></a> -->
+                <a href="#https://in.linkedin.com/company/talentrackr-software" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+            </div>
+        </div>
+    </section><!-- End Top Bar -->
+
+    <header id="header" class="header d-flex align-items-center">
+
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <!-- Uncomment the line below if you also wish to use an image logo -->
+                <img src="assets/img/companylogo.png" alt="">
+
+            </a>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+
+                    <li><a href="#product">Products</a></li>
+
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <li><a href="#requestdemo" class="requestdemobtn">Request Demo👋</a></li> -->
+                </ul>
+            </nav><!-- .navbar -->
+
+            <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+        </div>
+    </header><!-- End Header -->
+    <!-- End Headerrgb(176, 213, 217) -->
+    <!-- ======= Hero Section #B0D5D9 #BFBFBF #7bdcb5 #00d084 #8ed1fc new-#fefbe9--scrol-top-#c8ecf0======= -->
+    <section id="hero" class="hero bckim">
+        <div class="container  position-relative">
+            <div class="row gy-5" data-aos="fade-in">
+                <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
+
+                    <!-- <div class="carousel slide" data-bs-ride="carousel src="assets/img/testmonialimg/landingpagevid2.gif"">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>Recruitment and Onboarding Automation Platform</h2>
+          <p>Smart | Configurable | Dynamic</p>
+        </div>
+        <div class="carousel-item">
+          <h2>Optimize Your  Recruitment & Oboarding Process</h2>
+           <p>Smart | Configurable | Dynamic</p>
+
+        </div>
+        <div class="carousel-item">
+          <h2>Recruitment Automation Anytime, Anywhere Accessible on any Device</h2>
+
+        </div>
+      </div>
+
+    </div> -->
+                    <h2>Building solutions that transform your Ideas into Reality.</h2>
+                    <!-- <h2>Refine your documents with smart technology.</h2> -->
+                    <!-- <p>Smart | Configurable | Dynamic</p> -->
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                        <a href="#about" class="btn-get-started">Learn More</a>
+                        <!-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+                    </div>
+
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 landingpageimg d-flex justify-content-center">
+                    <img src="assets/img/3dimagebanner.png" class="img-fluid firstbannerlogo" alt="" data-aos="zoom-out" data-aos-delay="100">
+
+                    <!-- <img src="assets/img/newlandingimg/SVG/8.svg" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100"> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="icon-boxes position-relative">
+            <div class="container position-relative">
+                <!-- <div class="row gy-4 mt-5">
+
+                    <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon-box">
+                            <div class="icon">
+                                <i class="bi bi-play-btn"></i>
+                            </div>
+                            <h4 class="title"><a href="" class="stretched-link">Automate</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bi bi-lightbulb"></i></div>
+                            <h4 class="title"><a href="" class="stretched-link">Simplify</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="icon-box">
+                            <div class="icon">
+                               
+                                <i class="bi bi-rocket-takeoff"></i>
+
+                            </div>
+                            <h4 class="title"><a href="" class="stretched-link">Optimize</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                        <div class="icon-box">
+                            <div class="icon">
+                                
+                                <i class="bi bi-graph-up-arrow"></i>
+                                
+                            </div>
+                            <h4 class="title"><a href="" class="stretched-link">Visualize</a></h4>
+                        </div>
+                    </div>
+
+                </div> -->
+            </div>
+        </div>
+
+        </div>
+    </section>
+    <!-- End Hero Section -->
+    
+
+    <main id="main">
+        <!-- ======== why ideabrix ========== -->
+
+    <section  class="about">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-header sec-header">
+                <h2>Why ideabrix?</h2>
+                
+            </div>
+
+            <div class="row gy-4">
+
+                <div class="col-lg-4 why">
+                    <!-- <img src="assets/img/testmonialimg/interv1.jpg" class="img-fluid whyttrimg" alt="" data-aos="zoom-out" data-aos-delay="100"> -->
+                    <object type="image/svg+xml" data="./images/why1.svg" class="img-fluid whyttrimg" alt="" data-aos="zoom-out" data-aos-delay="100"></object>
+                </div>
+                <div class="col-lg-8 whyttcolm">
+                    <p>At Ideabrix, we specialize in delivering cutting-edge software solutions and top-notch staffing services tailored to meet your business needs. Whether you're looking to streamline operations with innovative technology or build a dynamic team of professionals, we are here to empower your success. </p>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quo blanditiis est officiis nisi
+                         modi aspernatur odio. Voluptatem excepturi sed rerum vero impedit odio quis maiores 
+                         perferendis nemo quaerat nostrum earum quidem, tempore repellendus incidunt esse eligendi 
+                         quas ratione? Possimus pariatur ea assumenda quia blanditiis dolorum qui aliquam quo nobis odio expedita distinctio optio facere repudiandae quam ut iure exercitationem temporibus, fugit dignissimos nihil maxime soluta minus? Qui debitis quaerat eligendi optio asperiores, ex consequatur soluta sed facilis. Quasi quod ducimus officia ipsum debitis, molestias harum consequuntur dolores sed recusandae esse reiciendis, aliquam praesentium amet neque dignissimos voluptatibus sequi corporis at voluptatem voluptates, fugiat voluptas ad est? Reprehenderit enim aliquam, ab voluptates repudiandae eaque consectetur inventore ipsa totam! Reiciendis, voluptate qui aspernatur laborum aut eos minima sint amet sit, aliquam iusto cum ea tempore dicta fugiat ipsum voluptates? Facilis, omnis deleniti nulla quae aliquid sed adipisci dolore animi et consequuntur ab perspiciatis odit. Provident porro optio dolorum aliquam quidem voluptas magni earum libero eveniet, dolorem aspernatur tempore dicta odio cupiditate eaque, voluptatem repellat voluptates beatae accusamus nostrum et. Quidem veniam pariatur placeat excepturi explicabo consequatur quos quae odio numquam hic tempora quasi a odit delectus, libero illo voluptatum! Assumenda, doloremque.</p> -->
+                    <!-- <p>
+                        Our Software Provide All Stakeholders A Seamless Recruitment Experience
+                        Along With Best-In-Class Candidate Experience With Minimal Data Entries.
+                    </p>
+                    <p>
+                        We offer Intutive UI and Customized workflows, dynamic forms-Applicant Tracking System,
+                        Interview Management, Offer Letter Management and MIS with Report Builder.
+                    </p> -->
+                   
+                    <!-- <div class="row aboutsecptopicon">
+                        <div class="col-md-4 certifi">
+                            <img src="assets/img/testmonialimg/CIO.jpg" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100">
+                            <p>10 Most Promising Recruitement Technology</p>
+
+                        </div>
+                        <div class="col-md-4 certifi">
+                            <img src="assets/img/testmonialimg/CEO.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100">
+                            <p>Brand Of The Year 2021</p>
+
+                        </div>
+                        <div class="col-md-4 certifi">
+                            <img src="assets/img/testmonialimg/color_icon2.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100">
+                            <p>ISO Certified 9001 : 2015</p>
+
+                        </div>
+
+                    </div> -->
+
+                    <div class="row aboutsecptopicon">
+                            <h4></i>Why Choose Us?</h4>
+                            <!-- <ul>
+                                <li><strong>Expertise and Experience</strong>: With years of industry experience, our team brings deep technical expertise and a proven track record of delivering successful outcomes for our clients. </li>
+                                <li><strong>Innovation</strong>: We stay ahead of the curve with continuous learning and adoption of emerging technologies, ensuring that our solutions are at the forefront of industry trends. </li>
+                                <li><strong>Client-Centric Approach</strong>: Your satisfaction is our priority. We work closely with you to understand your challenges and goals, providing tailored solutions and exceptional service every step of the way. </li>
+                                <li><strong>Commitment to Quality</strong>: We adhere to the highest standards of quality in our software development and staffing processes, ensuring reliability, security, and performance in everything we deliver. </li>
+                            </ul> -->
+                            <h5><i class="bi bi-check-circle-fill"></i> Expertise and Experience</h5>
+                            <p class="whyseccont">With years of industry experience, our team brings deep technical expertise and a proven track record of delivering successful outcomes for our clients. </p>
+                            <h5><i class="bi bi-check-circle-fill"></i> Innovation</h5>
+                            <p class="whyseccont"> We stay ahead of the curve with continuous learning and adoption of emerging technologies, ensuring that our solutions are at the forefront of industry trends. </p>
+                            <h5><i class="bi bi-check-circle-fill"></i> Client-Centric Approach</h5>
+                            <p class="whyseccont"> Your satisfaction is our priority. We work closely with you to understand your challenges and goals, providing tailored solutions and exceptional service every step of the way. </p>
+                            <h5><i class="bi bi-check-circle-fill"></i> Commitment to Quality</h5>
+                            <p class="whyseccont"> We adhere to the highest standards of quality in our software development and staffing processes, ensuring reliability, security, and performance in everything we deliver. </p>
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- =========end section======== -->
+
+        <!-- ======= About Us Section ======= -->
+        
+        <section id="about" class="about">
+            <div class="container aos-init aos-animate" data-aos="fade-up">
+
+                <div class="section-header">
+                    <h2>About Us</h2>
+                    <p class="aboutsecptop">Craft stunning documents effortlessly with our dynamic application. Seamlessly generate HTML templates and transform them into polished PDFs with just a few clicks. Elevate your document creation process to new heights of efficiency and professionalism. Welcome to the future of document design and generation</p>
+                </div>
+
+                <div class="row gy-4">
+                    <div class="col-lg-6">
+                        <div class="content ps-0 ps-lg-5 abouth3">
+                            <h5><i class="bi bi-check-circle-fill"></i>Who We Are</h5>
+                            <!-- <p class="aboutseccont">
+                                Craft stunning documents effortlessly with our dynamic application. Seamlessly generate HTML templates and transform them into polished PDFs with just a few clicks. Elevate your document creation process to new heights of efficiency and professionalism. Welcome to the future of document design and generation
+                            </p> -->
+                            <p class="aboutseccont">At Ideabrix, we are passionate about leveraging technology to empower businesses and enhance workforce capabilities. Founded with a vision to deliver exceptional software solutions and staffing services, Ideabrix has grown into a trusted partner for organizations seeking innovation and excellence. </p>
+                            <h5><i class="bi bi-check-circle-fill"></i>Our Mission</h5>
+                            <!-- <p class="aboutseccont">
+                                Craft stunning documents effortlessly with our dynamic application. Seamlessly generate HTML templates and transform them into polished PDFs with just a few clicks. Elevate your document creation process to new heights of efficiency and professionalism. Welcome to the future of document design and generation
+                            </p> -->
+                            <p class="aboutseccont">Our mission is to drive success for our clients by providing cutting-edge software solutions and top-tier staffing services that enable them to achieve their strategic goals efficiently and effectively. We are committed to delivering value through innovation, expertise, and a client-centric approach. </p>
+                            <!-- <h5><i class="bi bi-check-circle-fill"></i>What We Do</h5>
+                            <p class="aboutseccont">Craft stunning documents effortlessly with our dynamic application. Seamlessly generate HTML templates and transform them into polished PDFs with just a few clicks. Elevate your document creation process to new heights of efficiency and professionalism. Welcome to the future of document design and generation</p> -->
+                            <h5><i class="bi bi-check-circle-fill"></i>What We Offer</h5>
+                            <p class="aboutseccont"><ul>
+                                <li><strong>Software Solutions</strong>: We specialize in developing customized software solutions that align with your business objectives. Whether you need a robust application, enterprise system integration, or cloud solutions, our team of skilled developers and IT experts is dedicated to delivering solutions that meet your unique needs. </li>
+                                <li><strong>Staffing Services</strong>: Finding the right talent is crucial for organizational success. Our comprehensive staffing services connect businesses with skilled professionals across various domains, ensuring you have the right people to drive your projects forward. From temporary placements to permanent hires, we are committed to finding the perfect fit for your team. </li>
+                            </ul></p>
+                            <h5><i class="bi bi-check-circle-fill"></i>Our Promise</h5>
+                            <p class="aboutseccont">At Ideabrix, we are dedicated to fostering long-term partnerships built on trust, transparency, and mutual success. Whether you're a startup or an established enterprise, we are here to support your growth journey and help you achieve lasting business impact.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 flex-column-reverse flex-md-row">
+
+                        <!-- <img src="assets/img/testmonialimg/undraw_team_spirit_hrr4.png" class="img-fluid rounded-4 mb-4" alt=""> -->
+                        <object type="image/svg+xml" data="./images/about1.svg" class="img-fluid whyttrimg" alt="" data-aos="zoom-out" data-aos-delay="100"></object>
+                    </div>
+
+                </div>
+                <!-- <div class="section-header">
+                    <h2>Our History</h2>
+                </div>
+                <div class="row gy-4">
+                    <div class="col-lg-6 d-flex justify-content-center">
+                        <img src="assets/img/testmonialimg/book.svg" class="img-fluid rounded-4 mb-4 history" alt="">
+                        
+                    </div>
+                    <div class="col-lg-6">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod veritatis suscipit distinctio optio voluptates atque nostrum sunt voluptatibus quasi aliquid saepe placeat fugiat, pariatur corporis consectetur quibusdam dolorum tenetur. Ipsa, eaque, reprehenderit voluptates id ex molestias sint ipsam blanditiis nihil repudiandae consequuntur optio et, natus enim totam esse deleniti officia.
+                        </p>
+                    </div>
+
+                </div> -->
+
+            </div>
+        </section>
+
+        <!-- End About Us Section -->
+        <!-- ======= Clients Section ======= -->
+        <!-- <section id="clients" class="clients">
+            <div class="container" data-aos="zoom-out">
+                <div class="section-header">
+                    <h2>Trusted By</h2>
+                </div>
+                <div class="row gy-4 align-items-center justify-content-center client_logo">
+                    <div class="col-lg-3 col-md-2 col-xs-6"><div><img src="assets/img/clientimg/BDPLogo.png" class="img-fluid" alt=""></div></div>
+                    <div class="col-lg-3 col-md-2 col-xs-6"><div><img src="assets/img/clientimg/GTLOGO.png" class="img-fluid" alt=""></div></div>
+                    <div class="col-lg-3 col-md-2 col-xs-6"><div><img src="assets/img/clientimg/Mahindra.png" class="img-fluid" alt=""></div></div>
+                    <div class="col-lg-3 col-md-2 col-xs-6"><div><img src="assets/img/clientimg/bdoindia3.png" class="img-fluid" alt=""></div></div>
+                    <div class="col-lg-3 col-md-2 col-xs-6"><div><img src="assets/img/clientimg/AlankitLogo.png" class="img-fluid" alt=""></div></div>
+                    <div class="col-lg-3 col-md-2 col-xs-6"><div><img src="assets/img/clientimg/DDFLogo.png" class="img-fluid" alt=""></div></div>
+                    <div class="col-lg-3 col-md-2 col-xs-6"><div><img src="assets/img/clientimg/DeluxLogo.png" class="img-fluid" alt=""></div></div>
+                    <div class="col-lg-3 col-md-2 col-xs-6"><div><img src="assets/img/clientimg/Duroshox.png" class="img-fluid" alt=""></div></div>
+                    <div class="col-lg-3 col-md-2 col-xs-6"><div><img src="assets/img/clientimg/Enzene.png" class="img-fluid" alt=""></div></div>
+
+                    
+                    <div class="col-lg-3 col-md-2 col-xs-6"><div><img src="assets/img/clientimg/bill.png" class="img-fluid" alt=""></div></div>
+                    <div class="col-lg-3 col-md-2 col-xs-6"><div><img src="assets/img/clientimg/WhizibleLogo.png" class="img-fluid" alt=""></div></div>
+
+                </div>
+
+
+            </div>
+        </section> -->
+        <!-- End Clients Section -->
+        <!-- ======= Stats Counter Section ======= -->
+        <section id="stats-counter" class="stats-counter">
+            <div class="container" data-aos="fade-up">
+
+                <!-- <div class="row gy-4 align-items-center lagcount">
+
+
+                    <div class="col stats-item d-flex align-items-center">
+                        <div class="counter_img">
+                            <img src="assets/img/testmonialimg/happyclient.png" class="img-fluid">
+
+                        </div>
+                        <div class="counter_text">
+                            <div>
+                                <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
+                            </div>
+                            <p><strong>Happy Clients</strong></p>
+                        </div>
+
+                    </div>
+
+                    <div class="col stats-item d-flex align-items-center">
+                        <div class=" counter_img">
+                            <img src="assets/img/testmonialimg/award.png" class="img-fluid">
+                        </div>
+                        <div class="counter_text ">
+                            <div>
+                                <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+
+                            </div>
+                            <p><strong>Awards</strong></p>
+                        </div>
+
+
+                    </div>
+                    
+
+
+                    <div class="col stats-item d-flex align-items-center">
+                        <div class="counter_img">
+                            <img src="assets/img/testmonialimg/resumeparse.png" class="img-fluid">
+
+                        </div>
+                        <div class="counter_text">
+                            <div>
+                                <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+                                <span class=".span">M</span>
+                            </div>
+                            <p><strong>Resumes Parsed Yearly</strong></p>
+
+                        </div>
+
+                    </div>
+
+                    <div class=" col stats-item d-flex align-items-center">
+                        <div class="counter_img">
+                            <img src="assets/img/testmonialimg/interview1.png" class="img-fluid">
+
+                        </div>
+                        <div class="counter_text">
+                            <div>
+                                <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
+                                <span class=".span">M</span>
+                            </div>
+
+                            <p><strong>Interviews Scheduled</strong></p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col stats-item d-flex align-items-center">
+                        <div class="counter_img">
+                            <img src="assets/img/testmonialimg/impression-rate (1).png" class="img-fluid">
+                        </div>
+                        <div class="counter_text">
+                            <div>
+                                <span data-purecounter-start="0" data-purecounter-end="156" data-purecounter-duration="1" class="purecounter"></span><span>K+</span>
+
+                            </div>
+                            <p><strong>Jobs Created</strong></p>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div> -->
+                <div class="row gy-4 align-items-center mobcounter">
+
+
+                    <!-- <div class="col-xs-12 stats-item d-flex align-items-center">
+                        <div class="counter_img">
+                            <img src="assets/img/testmonialimg/happyclient.png" class="img-fluid">
+
+                        </div>
+                        <div class="counter_text">
+                            <div>
+                                <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
+                            </div>
+                            <p><strong>Happy Clients</strong></p>
+                        </div>
+
+                    </div> -->
+                    <!-- End Stats Item -->
+
+                    <!-- <div class="col-xs-12 stats-item d-flex align-items-center">
+                        <div class="counter_img">
+                            <img src="assets/img/testmonialimg/award.png" class="img-fluid">
+                        </div>
+                        <div class="counter_text ">
+                            <div>
+                                <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+
+                            </div>
+                            <p><strong>Awards</strong></p>
+                        </div>
+
+
+                    </div> -->
+                    <!-- End Stats Item -->
+
+
+                    <!-- <div class="col-xs-12 stats-item d-flex align-items-center">
+                        <div class="counter_img">
+                            <img src="assets/img/testmonialimg/resumeparse.png" class="img-fluid">
+
+                        </div>
+                        <div class="counter_text">
+                            <div>
+                                <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+                                <span class=".span">M</span>
+                            </div>
+                            <p><strong>Resumes Parsed Yearly</strong></p>
+
+                        </div>
+
+                    </div> -->
+                    <!-- End Stats Item -->
+
+                    <!-- <div class="col-xs-12 stats-item d-flex align-items-center">
+                        <div class="counter_img">
+                            <img src="assets/img/testmonialimg/interview1.png" class="img-fluid">
+
+                        </div>
+                        <div class="counter_text">
+                            <div>
+                                <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
+                                <span class=".span">M</span>
+                            </div>
+
+                            <p><strong>Interviews Scheduled</strong></p>
+
+                        </div>
+
+                    </div> -->
+                    <!-- End Stats Item -->
+
+                    <!-- <div class="col-xs-12 stats-item d-flex align-items-center">
+                        <div class="counter_img">
+                            <img src="assets/img/testmonialimg/impression-rate (1).png" class="img-fluid">
+                        </div>
+                        <div class="counter_text">
+                            <div>
+                                <span data-purecounter-start="0" data-purecounter-end="156" data-purecounter-duration="1" class="purecounter"></span><span>K+</span>
+
+                            </div>
+                            <p><strong>Jobs Created</strong></p>
+
+                        </div>
+
+                    </div> -->
+                    <!-- End Stats Item -->
+
+
+
+
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Stats Counter Section -->
+        <!-- ======= Our Services Section ======= -->
+        <section id="services" class="services sections-bg">
+            <div class="container" data-aos="fade-up">
+                <div class="section-header">
+                    <h2>Our Services</h2>
+                </div>
+
+                <div class="row gy-4 justify-content-center" data-aos="fade-up" data-aos-delay="100">
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item  position-relative">
+                            <div class="ico">
+                                <!-- <img src="assets/img/testmonialimg/service1.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100">
+                                 -->
+                                <object type="image/svg+xml" data="./images/staff1.svg" class="img-fluid whyttrimg" alt="" data-aos="zoom-out" data-aos-delay="100"></object>
+                                
+                            </div>
+                            <!-- <h3>APPLICANT TRACKING SYSTEM</h3>
+                            <p>Powered with customisable workflows and forms, source and pursue the right candidates while seamlessly collaborating with all the stakeholders.</p>
+                            <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+                            <h3>STAFFING</h3>
+                            <p>Our staffing solutions help you find the right talent for your organization, ensuring you have the best people in the right roles to drive your business forward.</p>
+                            <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item position-relative">
+                            <div class="ico">
+                                <!-- <img src="assets/img/testmonialimg/Resume-parsing-box.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100"> -->
+                                <object type="image/svg+xml" data="./images/rec1.svg" class="img-fluid whyttrimg" alt="" data-aos="zoom-out" data-aos-delay="100"></object>
+                                
+                            </div>
+                            <!-- <h3>RESUME PARSER</h3>
+                            <p>Build your candidate database by effortlessly parsing thousands of resumes from various sources at lightening speed.</p>
+                            <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+                            <h3>RECRUITMENT</h3>
+                            <p>We offer comprehensive recruitment services to help you attract, evaluate, and hire top candidates, providing you with the human resources you need to succeed.</p>
+                            <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item position-relative">
+                            <div class="ico">
+                                <!-- <img src="assets/img/testmonialimg/Dashboards.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100"> -->
+                                <object type="image/svg+xml" data="./images/SD1.svg" class="img-fluid whyttrimg" alt="" data-aos="zoom-out" data-aos-delay="100"></object>
+                            </div>
+                            <!-- <h3>DIGITAL ONBOARDING</h3>
+                            <p>
+                                Make data driven decisions and measure your team’s performance using built in reports and visualisations.
+                                Discover new patterns by intuitively building customised reports with report builder
+                            </p>
+                            <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
+                            <h3>SOFTWARE DEVELOPMENT</h3>
+                            <p>Our team of expert developers creates custom software solutions tailored to your specific business needs, ensuring you have the tools necessary to achieve your goals.
+                            </p>
+                            <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                   
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item position-relative">
+                            <div class="ico">
+                                <!-- <img src="assets/img/testmonialimg/Dashboards.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100"> -->
+                                <object type="image/svg+xml" data="./images/ai1.svg" class="img-fluid whyttrimg" alt="" data-aos="zoom-out" data-aos-delay="100"></object>
+                            </div>
+                            <h3>MACHINE LEARNING & AI SOLUTIONS</h3>
+                            <p>Our team of expert developers creates custom software solutions tailored to your specific business needs, ensuring you have the tools necessary to achieve your goals.
+                            </p>
+                            <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Our Services Section -->
+        <!-- ======= Portfolio Section #edffff======= -->
+        <!-- <section id="portfolio" class="portfolio sections-bg">
+            <div class="container portfolcontener" data-aos="fade-up">
+
+                <div class="section-header">
+                    <h2>How We Simplify Your Stringent Processes</h2>
+                    <p>Hire the best talent while maximizing your team’s efficiency!</p>
+                </div>
+
+                <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order" data-aos="fade-up" data-aos-delay="100">
+
+                    <div>
+                        <ul class="nav nav-tabs nav-justified navsm" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-bs-toggle="tab" href="#hiringmanager">Hiring Manager</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#recruiter">Recruiter</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#candidate">Candidates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " data-bs-toggle="tab" href="#placmentc">Placement Consultants</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="row gy-4 tabcontrow">
+                        <div class="tab-content">
+                            <div class="tab-pane container active animated fadeInRight" id="hiringmanager">
+                                <div class="row justify-content-center d-flex">
+                                    <h3 class="tab-content-title d-flex justify-content-center">Solution for your hiring needs</h3>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 align-self-center smcont">
+                                        <img class="img-center img-fluid" src="assets/img/drowkit1/DrawKit Vector Illustration Team Work/SVG/DrawKit Vector Illustration Team Work (2).svg" alt="">
+                                    </div>
+                                    
+                                    <div class="col-lg-6  py-auto li-dash-cont">
+                                        <div class="list-dash list-dash-tab my-auto">
+                                            <p><i class="bi bi-star-fill"></i>Create Requisitions</p>
+                                            <p><i class="bi bi-star-fill"></i>Approve/Rejects Requisitions</p>
+                                            <p><i class="bi bi-star-fill"></i>Review Candidates</p>
+                                            <p><i class="bi bi-star-fill"></i>Interview Feedbacks</p>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane container fade" id="recruiter">
+                                <div class="row justify-content-center d-flex">
+                                    <h3 class="tab-content-title d-flex justify-content-center">Solution for your recruiter needs</h3>
+                                </div>
+                                <div class="row pb-3">
+                                    <div class="col-md-1"></div>
+                                    <div class="col-lg-7  li-dash-cont col-md-">
+                                        <div class="list-dash list-dash-tab smcont my-auto">
+                                            <p><i class="bi bi-star-fill"></i>Resume Parsing</p>
+                                            <p><i class="bi bi-star-fill"></i>Sourcing</p>
+                                            <p><i class="bi bi-star-fill"></i>Applicant Tracking</p>
+                                            <p><i class="bi bi-star-fill"></i>Submissions</p>
+                                            <p><i class="bi bi-star-fill"></i>Interview Scheduling</p>
+                                            <p><i class="bi bi-star-fill"></i>Candidate Communication</p>
+                                            <p><i class="bi bi-star-fill"></i>Customized Offer Letter &amp; Digital Onboarding</p>
+                                        </div>
+                                       
+                                    </div>
+                                    
+                                    <div class="col-lg-4 align-self-center smcont2 pl-md-4 ">
+                                        <img class="img-center img-fluid ml-md|lg-5 secimg" src="assets/img/drowkit1/DrawKit Vector Illustration Team Work/SVG/DrawKit Vector Illustration Team Work (11).svg" alt="">
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane container fade" id="candidate">
+                                <div class="row">
+                                    <h3 class="tab-content-title d-flex justify-content-center">Easy candidate registration</h3>
+                                </div>
+                                <div class="row candidatetabrow">
+                                    <div class="col-lg-5 align-self-center smcon smcont candiimgcoltab">
+                                        <img class="img-center img-fluid" src="assets/img/drowkit1/DrawKit Vector Illustration Team Work/SVG/DrawKit Vector Illustration Team Work (15).svg" alt="">
+                                    </div>
+                                    
+                                    <div class="col-lg-7 py-auto li-dash-cont">
+                                        <div class="list-dash list-dash-tab my-auto">
+                                            <p><i class="bi bi-star-fill"></i>Register</p>
+                                            <p><i class="bi bi-star-fill"></i>Upload Resume</p>
+                                            <p><i class="bi bi-star-fill"></i>Fill Candidate Form</p>
+                                            <p><i class="bi bi-star-fill"></i>Get Hired</p>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane container fade" id="placmentc">
+                                <div class="row">
+                                    <h3 class="tab-content-title justify-content-center d-flex">Recruitment business management solution</h3>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1"></div>
+                                    <div class="col-lg-7">
+                                        <div class="list-dash list-dash-tab">
+                                            <p><i class="bi bi-star-fill"></i>Automating recruitment process. No more need to post job listing manually across hundreds of job listing websites and social media.</p>
+                                            <p><i class="bi bi-star-fill"></i>Client management</p>
+                                            <p><i class="bi bi-star-fill"></i>Automated customer specific tracker sheets</p>
+                                            <p><i class="bi bi-star-fill"></i>Makes the process of recruiting faster.</p>
+                                            <p><i class="bi bi-star-fill"></i>Better hiring of talents.</p>
+                                        </div>
+                                        
+                                    </div>
+                                  
+                                    <div class="col-lg-4 align-self-center smcont">
+                                        <img class="img-center img-fluid" src="assets/img/drowkit1/DrawKit Vector Illustration Team Work/SVG/DrawKit Vector Illustration Team Work (3).svg" alt="">
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                </div>
+            </div>
+        </section> -->
+        <!-- End Portfolio Section -->
+       
+        <!-- ======= Product  Section ======= -->
+        <section id="product" class="faq sections-bg -product">
+            <div class="container" data-aos="fade-up">
+                <div class="section-header">
+                    <h2>Products</h2>
+                    <p> 
+                        At IdeaBrix, we specialize in cutting-edge HR technology solutions and a range of professional services designed to streamline and enhance your business operations. Our comprehensive suite of products and services includes:</p>
+
+                </div>
+                <div class="row gy-4">
+                    <div class="col-lg-4">
+                        <div class="content pr-4 prd-img">
+                            <!--<img src="assets/img/newlandingimg/SVG/2.svg" />-->
+                            <img src="assets/img/drowkit1/DrawKit Vector Illustration Team Work/SVG/DrawKit Vector Illustration Team Work (6).svg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="accordion accordion-flush prodcont" id="faqlist" data-aos="fade-up" data-aos-delay="100">
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                                        <!-- <span class="num">1.</span>
+                                        Applicant Tracking System
+                                    </button>
+                                </h3>
+                                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Talentrackr proprietary applicant tracking system is specifically designed to streamline recruitment processes. Leveraging predefined and customizable workflows the platform equips the hiring organisation in data mining and manage the flow of communication between various stakeholders and the candidate.
+                                            It’s an amalgamation of state of the art tools which seamlessly manages various facets of the recruitment process – from job posting to resume discovery from social media platforms or other sources to pre-qualification of candidate, and final selection.
+                                        </p>
+
+                                        <p>Talentrackr ATS automates and increases efficiencies in the hiring process optimising costs and reducing turn-around times at all steps of the hiring process.</p>
+                                        <h6>Attributes & Advantages</h6>
+                                        <ul class="list-dash">
+                                            <p><i class="bi bi-check-circle-fill"></i> Simplistic and precise resume search and screening, keyword based search basis skills, experience, education, availability or location</p>
+                                            <p><i class="bi bi-check-circle-fill"></i> Candidate pre-qualification basis skills, education and experience with auto ranking</p>
+                                            <p><i class="bi bi-check-circle-fill"></i> Candidate tracking across stages of hiring, onboarding and beyond</p>
+                                            <p><i class="bi bi-check-circle-fill"></i> Customised offer letter creation with CTC breakdown and offer acceptance status monitoring</p>
+                                            <p><i class="bi bi-check-circle-fill"></i> Real time tracking of centralised database for mapping requisitions to hiring stage</p>
+                                            <p><i class="bi bi-check-circle-fill"></i> Streamlined single window communication and feedback tracking, bringing together interview panel, hiring manager recruiter and the candidate</p>
+                                            <p><i class="bi bi-check-circle-fill"></i> Centralised document repository for all hiring process requirements such as background and health check, interview feedback, candidate information</p>
+                                            <p><i class="bi bi-check-circle-fill"></i> Career page integration for posting openings where candidates can search and apply for open position directly from corporate website</p>
+                                            <p><i class="bi bi-check-circle-fill"></i> Automatic mail triggers and alerts for recruiters to act on new requisitions and track position aging</p>
+                                            <p><i class="bi bi-check-circle-fill"></i> Lower time-to-hire, cost-per-hire, and improved quality of hire</p>
+                                        </ul>
+                                      -->
+                                        <span class="num">1.</span>
+                                        HR Tech
+                                    </button>
+                                </h3>
+                                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Empower your HR team with advanced tools for recruitment, employee engagement, performance tracking, and more, all designed to simplify HR processes and improve efficiency.
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                                        <!-- <span class="num">2.</span>
+                                        Resume Parser
+                                    </button>
+                                </h3>
+                                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                    <div class="accordion-body">
+                                        <p>Helps recruiters efficiently manage profiles received via job boards into a structured database which enables faster discovery, retrieval and processing.</p>
+                                        <h6>Attributes & Advantages</h6>
+                                        <ul class="list-dash">
+
+                                            <p><i class="bi bi-check-circle-fill"></i>Builds structured talent database quickly from all resume documents.</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Parses resumes for all widely used formats – word, pdf, rtf, etc</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Integrates seamlessly with LinkedIn, Gmail, and Outlook</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Utilises a high performance search engine for profile discovery and management</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Intuitively maps relevant profiles to requisition pipeline with a keystroke</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Automatically detects and flags duplicate profiles</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Eliminates tedious and at times inconsistent data entry</p>
+
+
+                                        </ul> -->
+
+                                        <span class="num">2.</span>
+                                        Job Portals
+                                    </button>
+                                </h3>
+                                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                    <div class="accordion-body">
+                                        <p>Our robust job portal solutions connect employers with top talent, offering seamless job posting, application tracking, and candidate management to streamline the hiring process.</h6>
+                                        <ul class="list-dash">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                                        <!-- <span class="num">3.</span>
+                                        Virtual Recruitment
+                                    </button>
+                                </h3>
+                                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                    <div class="accordion-body">
+                                        <p>Helps recruiters efficiently qualify, select and onboard talent leveraging an easy to use platform which is convenient for candidates as well and enables them to respond with pre-recorded responses or appear for live interviews anytime from any device.</p>
+                                        <h6>Attributes & Advantages</h6>
+                                        <ul class="list-dash">
+                                            <p><i class="bi bi-check-circle-fill"></i>User friendly interview scheduling and coordination capability</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Centralised interview feedback collection and candidate tagging</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Structured assessment modules that help in initial screening and testing</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Intuitively design assessment modules for different levels of testing</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Cost, time saving and convenient</p>
+                                        </ul> -->
+
+                                        <span class="num">3.</span>
+                                        Document Automation
+                                    </button>
+                                </h3>
+                                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                    <div class="accordion-body">
+                                        <p>Securely store, manage, and automate document workflows with our advanced document automation systems, ensuring your business runs smoothly with easy access to and management of critical information.</h6>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                                        <span class="num">4.</span>
+                                        Realtime Reports & Dashboards
+                                    </button>
+                                </h3>
+                                <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                    <div class="accordion-body">
+                                        <p>Leverage dynamic dashboards and reports to discover patterns and trends, derive insights and transform processes to increase efficiencies.</p>
+                                        <h6>Attributes & Advantages</h6>
+                                        <ul class="list-dash">
+                                            <p><i class="bi bi-check-circle-fill"></i>Real time decision making using customised dashboards</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Ad-hoc and periodical reporting of candidate pipeline growth and recruiter performance management</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Identify the efficacy of social media channels for niche candidate sourcing</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Analyse success rates for employment campaigns, job listings, and social network postings</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Utilise natural language processing to find and map profiles to job descriptions</p>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
+                                        <span class="num">5.</span>
+                                        Social Media Integration
+                                    </button>
+                                </h3>
+                                <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                    <div class="accordion-body">
+                                        <p>Reach out to qualified but passive candidates and increase hiring flexibility by leveraging social media integrations built into the platform.</p>
+                                        <h6>Attributes & Advantages</h6>
+                                        <ul class="list-dash">
+                                            <p><i class="bi bi-check-circle-fill"></i>Utilise social media to search and connect with candidates and referrals thereby increasing recruiter outreach and talent quality</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Integrated feature to share open jobs on corporate and personal social media, expanding reach to active as well as passive talent pool</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Automatic job posting scheduling to select social networks where postings can be amended throughout campaign lifecycle</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Monitor and analyse successful social media candidate sourcing with real time reports and leverage the same in the future</p>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-6">
+                                        <span class="num">6.</span>
+                                        Employee Referral Integration
+                                    </button>
+                                </h3>
+                                <div id="faq-content-6" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                    <div class="accordion-body">
+                                        <p>Increase modes of sourcing and track referrals leveraging employee referral integration within the platform.</p>
+                                        <h6>Attributes & Advantages</h6>
+                                        <ul class="list-dash">
+                                            <p><i class="bi bi-check-circle-fill"></i>Fast and cost effective access to highly qualified candidates</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Recruiters can track candidates referred by employees and provide timely updates</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Integrate employee referral program in recruitment platform and reduce vendor dependency and cost</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Manage and track employee referral compensation in a centralised manner</p>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-7">
+                                        <span class="num">7.</span>
+                                        Vendor Management
+                                    </button>
+                                </h3>
+                                <div id="faq-content-7" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                    <div class="accordion-body">
+                                        <p>Collaborate with your hiring partners and vendors enabling stronger and streamlined candidate sourcing and candidate pipeline growth.</p>
+                                        <h6>Attributes & Advantages</h6>
+                                        <ul class="list-dash">
+                                            <p><i class="bi bi-check-circle-fill"></i>Performance and vendor success rate management of hiring partners through dynamic reports</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Seamless candidate resume management submitted by vendors into central database</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Repository to track vendor and recruitment contracts and supporting documentation</p>
+                                            <p><i class="bi bi-check-circle-fill"></i>Monitor duplicate resume submission by third party vendors on a real time basis</p>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> -->
+
+
+                            
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Frequently Asked Questions Section -->
+        <!-- ======= Request Demo Section ======= -->
+        <section id="requestdemo" class="contact ">
+            <div class="container" data-aos="fade-up">
+
+
+                <div class="requestdemof contimg bgimag">
+                    <div class="section-header pt-4 pb-2">
+                        <h2>Request Demo</h2>
+                        <!-- <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p> -->
+                    </div>
+                    <div class="row gx-lg-0 gy-4 flex-column-reverse flex-lg-row ">
+                        <div class="col-lg-8 m-auto">
+                            <form action="#" id="requestDemoform" method="POST" role="form" class="php-email-form pef ">
+                                <div class="error-container"></div>
+                                <div class="row ">
+                                    <div class="col-md-6 form-group">
+                                        <input type="text" class="form-control" id="txtFullName" placeholder="Your Name" required>
+                                    </div>
+                                    <div class="col-md-6 form-group ">
+                                        <input type="text" class="form-control" id="txtPhoneNumber" placeholder="Phone number" required>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-md-6 form-group">
+                                        <input type="text" class="form-control" id="txtCompanyName" placeholder="Company Name" required>
+                                    </div>
+                                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                                        <input type="email" class="form-control" id="txtEmail" placeholder="Company Email" required>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <!-- <div class="col-md-6 form-group">
+                                        <input type="text" class="form-control" id="txtLocation" placeholder="Location" required>
+                                    </div> -->
+                                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                                        <select name="support" id="support" class="form-select form-select-lg form-control" aria-label="Default select example">
+                                            <option value="">--Please choose an option--</option>
+                                            <option value="general_enquiry">General enquiry</option>
+                                            <option value="support">Support</option>
+                                        </select>
+                                    </div>
+                                    <!-- <div class="col-md-6 form-group mt-3 mt-md-0">
+                                        <input type="text" class="form-control" id="txtNumberofrecruiters" placeholder="Number of recruiters" required>
+                                    </div> -->
+                                </div>
+
+                                <div class="form-group mt-3">
+                                    <textarea class="form-control" name="message" id="txtMessage" rows="7" placeholder="Message" required></textarea>
+                                </div>
+                                <div class="row mt-3">
+                                    
+
+                                    <div class="col-md-3 form-group mt-3 mt-md-0" >
+                                        <div id="captchadiv" style="display: inline-block;">
+
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                    <div class="col-md-1" style="display: inline-block; margin-top:0.5%;"  >
+                                        
+                                        <span onclick="createcaptcha()" data-bs-toggle="tooltip" title="Refresh captcha"><i class="bi bi-arrow-clockwise" style="font-size: 30px; "></i></span>
+
+                                    </div>
+                                    <div class="col-md-10 form-group">
+                                        <input type="text" class="form-control" id="captchaINtext" placeholder="enter captcha" required>
+                                    </div>
+                                    
+                                </div>
+                                
+                                <div class="text-center"><button type="submit"  id="btnsave">Send Request</button></div>
+                            </form>
+                        </div><!-- End Contact Form -->
+
+                        <!-- <div class="col-lg-4 ">
+
+                            <img src="assets/img/testmonialimg/Account.gif" class="img-fluid">
+
+
+
+                        </div> -->
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Contact Section -->
+        <!-- ======= Testimonials Section ======= -->
+        <!-- <section id="testimonials" class="testimonials">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-header">
+                    <h2>Listen From Our Clients</h2>
+                    
+                </div>
+
+                <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-wrap">
+                                <div class="testimonial-item">
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/img/testmonialimg/man.png" class="testimonial-img flex-shrink-0" alt="">
+                                        <div>
+                                            <h3>Vasanta B</h3>
+                                            <h4>Lead - Human Resources, SONY</h4>
+                                            <div class="stars">
+                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <i class="bi bi-quote quote-icon-left"></i>
+                                        We could get lot of customisation done with Talentrackr, especially to our specific and unique corporate requirements and it still remains easy to use for our recruiters. All of our vendors are using Talentrackr to submit their candidates very easily Talentrackr' s support and technical team are extremely responsive, helpful and timely and they have been very enthusiastic for any sort of customisation or be it a new workflow.
+                                        We generate 100% of our Offers letters from Talentrackr.
+                                        <i class="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-wrap">
+                                <div class="testimonial-item">
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/img/testmonialimg/man2.png" class="testimonial-img flex-shrink-0" alt="">
+                                        <div>
+                                            <h3>Rupesh A Madhamshettiwar</h3>
+                                            <h4>General Manager - IT, SUZLON</h4>
+                                            <div class="stars">
+                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <i class="bi bi-quote quote-icon-left"></i>
+                                        After an extensive & exhaustive review of recruitment solutions available in the marketplace, Suzlon have selected Talentrackr.
+                                        This was based on its robust features/functionalities. It is an upcoming tool with lots of agility, integration with job boards &
+                                        LinkedIn, as well as extensive reporting, AI led resume Parsing capabilities is awesome
+                                        <i class="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+        </section> -->
+        <!-- End Testimonials Section -->
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-header">
+                    <h2>Contact</h2>
+                    <!-- <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p> -->
+                </div>
+
+                <div class="row gx-lg-0 gy-4">
+
+                    <div class="col-lg-4">
+
+                        <div class="info-container d-flex flex-column align-items-center justify-content-center">
+                            <div class="info-item d-flex">
+                                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                                <div>
+                                    <h4>Location:</h4>
+                                    <p>Plot No 1/C, Sy No 83/1, Raidurgam panmaktha Hyderabad Knowledge City, Serilingampally, Hyderabad, Telangana 50008</p>
+                                </div>
+                            </div><!-- End Info Item -->
+
+                            <div class="info-item d-flex">
+                                <i class="bi bi-envelope flex-shrink-0"></i>
+                                <div>
+                                    <h4>Email:</h4>
+                                    <p>demo@ideabrix.com</p>
+                                </div>
+                            </div><!-- End Info Item -->
+
+                            <div class="info-item d-flex">
+                                <i class="bi bi-phone flex-shrink-0"></i>
+                                <div>
+                                    <h4>Call:</h4>
+                                    <p>(+91) 8867010561</p>
+                                </div>
+                            </div><!-- End Info Item -->
+
+                            <div class="info-item d-flex">
+                                <i class="bi bi-clock flex-shrink-0"></i>
+                                <div>
+                                    <h4>Open Hours:</h4>
+                                    <p>Mon-Fri: 9AM - 7PM</p>
+                                </div>
+                            </div><!-- End Info Item -->
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-8">
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <div class="row">
+                                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.7242842345186!2d77.6725803146115!3d12.92543419088615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13c1f179e0ff%3A0xbdab135f931b9ffc!2sTalentrackr%20Technologies!5e0!3m2!1sen!2sin!4v1680591453541!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.7184186936443!2d77.66971247793265!3d12.925810754859292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae137584acc8d7%3A0xd682aa274fd8881!2sVaishnavi%20Signature!5e0!3m2!1sen!2sin!4v1716227578743!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                            </div>
+                        </form>
+                    </div><!-- End Contact Form -->
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Contact Section -->
+
+    </main><!-- End #main -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-5 col-md-12 footer-info">
+                    <a href="index.html" class="logo d-flex align-items-center">
+                        <img src="assets/img/companylogo.png" alt="">
+                    </a>
+                    <!-- <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p> -->
+                    <div class="social-links d-flex mt-4">
+                        <a href="https://twitter.com/talentrackr" class="twitter"><i class="bi bi-twitter"></i></a>
+                        <a href="https://www.facebook.com/talentrackrtechnologies" class="facebook"><i class="bi bi-facebook"></i></a>
+                        <!-- <a href="#" class="instagram"><i class="bi bi-instagram"></i></a> -->
+                        <a href="https://in.linkedin.com/company/talentrackr-software" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#services">Services</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links">
+                    <h4 class="unfoo">Useful link</h4>
+                    <ul>
+                        <li><a href="#">Terms of service</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <!-- <li><a href="#requestdemo">Request Demo</a></li> -->
+
+                        
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>
+                        Plot No 1/C, Sy No 83/1, Raidurgam panmaktha Hyderabad Knowledge City, Serilingampally, Hyderabad, Telangana 50008<br>
+                        <strong>Phone:</strong> (+91) 8867010561<br>
+                        <strong>Email:</strong> demo@ideabrix.com<br>
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <div class="copyright">
+                &copy; Copyright <strong><span>IdeaBrix</span></strong>. All Rights Reserved
+            </div>
+
+        </div>
+
+    </footer><!-- End Footer #c8ecf0 #c8ecf0-->
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <div class="whatsappicon">
+        <a href="https://wa.me/919923009360" target="_blank"><i class="bi bi-whatsapp"></i>
+            <!--<img src="assets/img/testmonialimg/whatsapp.png" />-->
+        </a>
+    </div>
+    
+
+    <div id="preloader"></div>
+    <div id="loader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <!--<script src="assets/vendor/php-email-form/validate.js"></script>-->
+    <!-- Template Main JS File -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="../js/sweetalert.min.js"></script>
+    <script src="js/connection.js" type="text/javascript" ></script>
+
+
+</body>
+
+</html>
