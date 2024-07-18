@@ -264,6 +264,7 @@ section {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+  
 }
 
 /*--------------------------------------------------------------
@@ -298,6 +299,7 @@ section {
   .topbar .contact-info i span {
     font-size: 13px;
   }
+
 }
 
 .topbar .contact-info i a {
@@ -720,10 +722,12 @@ section {
   color: #4F6F52 ;
   margin-right: 0.3rem;
   font-size: 18px;
-  
-  
-
 }
+
+h4.whychooseus{
+  margin-top: -50px;
+}
+
 .abouth3 h5, .aboutsecptopicon h5, .aboutsecptopicon h4{
   font-weight: 600;
   color: #4F6F52 ;
@@ -1136,7 +1140,7 @@ section {
   /* color: var(--color-default); */
   color: black;
   font-weight: 700;
-  margin: 0 0 20px 0;
+  margin: 20px 0;
   padding-bottom: 15px;
   font-size: 22px;
   position: relative;
@@ -3132,8 +3136,11 @@ section {
   height: 400px;
 }
 
+/* .bgimag{
+  background-image: url('../img/wooden-wood-backgrounds-textured-pattern-wallpaper-concept.jpg');
+} */
+
 .bgimag{
-<<<<<<< HEAD
   background-color: #FFDAB9;
 }
 
@@ -3150,10 +3157,18 @@ section {
   }
 }
 
-.whyttrimg{
+/* .whyttrimg{
   height: 50%;
-} 
-=======
-  background-image: url('../img/wooden-wood-backgrounds-textured-pattern-wallpaper-concept.jpg');
+}  */
+
+.whyimage{
+  margin-top: 35px;
 }
->>>>>>> parent of a80dbfc (second commit by shreyesh)
+
+.abtimage{
+  margin-top: 80px;
+}
+
+.aiimage{
+  height: 160px;    
+}
