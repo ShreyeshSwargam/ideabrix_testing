@@ -13,7 +13,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
     <!-- Favicons -->
-    <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+    <link href="assets/img/companylogo1.png" rel="icon">
     <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
     <!-- Google Fonts -->
@@ -1166,9 +1166,7 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
-                    <!-- <h2>Contact</h2> -->
                     <h2>Request Demo</h2>
-                    <!-- <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p> -->
                 </div>
 
                 <div class="row gx-lg-0 gy-4">
@@ -1182,47 +1180,33 @@
                                     <h4>Location:</h4>
                                     <p>Plot No 1/C, Sy No 83/1, Raidurgam panmaktha Hyderabad Knowledge City, Serilingampally, Hyderabad, Telangana 50008</p>
                                 </div>
-                            </div><!-- End Info Item -->
-
+                            </div>
                             <div class="info-item d-flex">
                                 <i class="bi bi-envelope flex-shrink-0"></i>
                                 <div>
                                     <h4>Email:</h4>
                                     <p>contactus@ideabrix.in</p>
                                 </div>
-                            </div><!-- End Info Item -->
-
+                            </div>
                             <div class="info-item d-flex">
                                 <i class="bi bi-phone flex-shrink-0"></i>
                                 <div>
                                     <h4>Call:</h4>
                                     <p>(+91) 8310851142</p>
                                 </div>
-                            </div><!-- End Info Item -->
-
+                            </div>
                             <div class="info-item d-flex">
                                 <i class="bi bi-clock flex-shrink-0"></i>
                                 <div>
                                     <h4>Open Hours:</h4>
                                     <p>Mon-Fri: 9AM - 7PM</p>
                                 </div>
-                            </div><!-- End Info Item -->
+                            </div>
                         </div>
 
                     </div>
-
-                    <!-- <div class="col-lg-8">
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                            <div class="row">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.7242842345186!2d77.6725803146115!3d12.92543419088615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13c1f179e0ff%3A0xbdab135f931b9ffc!2sTalentrackr%20Technologies!5e0!3m2!1sen!2sin!4v1680591453541!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.7184186936443!2d77.66971247793265!3d12.925810754859292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae137584acc8d7%3A0xd682aa274fd8881!2sVaishnavi%20Signature!5e0!3m2!1sen!2sin!4v1716227578743!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                            </div>
-                        </form>
-                    </div> -->
-
-                    <div class="info-container col-lg-8">
-                        <div class="row gx-lg-0 gy-4 flex-column-reverse flex-lg-row" id="'reqform">
+                    <div class="info-container col-lg-8 callform">
+                        <div class="row gx-lg-0 gy-4 flex-column-reverse" id="'reqform">
                             <div class="col-lg-8 ">
                                 <form action="#" id="requestDemoform" method="POST" role="form" class="php-email-form pef ">
                                     <div class="error-container"></div>
@@ -1243,9 +1227,6 @@
                                         </div>
                                     </div>
                                     <div class="row mt-3">
-                                        <!-- <div class="col-md-6 form-group">
-                                            <input type="text" class="form-control" id="txtLocation" placeholder="Location" required>
-                                        </div> -->
                                         <div class="col-md-6 form-group mt-3 mt-md-0">
                                             <select name="support" id="support" class="form-select form-select-lg form-control" aria-label="Default select example">
                                                 <option value="">--Please choose an option--</option>
@@ -1253,9 +1234,6 @@
                                                 <option value="support">Support</option>
                                             </select>
                                         </div>
-                                        <!-- <div class="col-md-6 form-group mt-3 mt-md-0">
-                                            <input type="text" class="form-control" id="txtNumberofrecruiters" placeholder="Number of recruiters" required>
-                                        </div> -->
                                     </div>
     
                                     <div class="form-group mt-3">
@@ -1264,7 +1242,7 @@
                                     <div class="row mt-3">
                                         
     
-                                        <div class="col-md-3 form-group mt-3 mt-md-0" >
+                                        <div class="col-md-3 form-group mt-3 mt-md-0" id="cap">
                                             <div id="captchadiv" style="display: inline-block;">
     
                                             </div>
@@ -1276,7 +1254,7 @@
                                             <span onclick="createcaptcha()" data-bs-toggle="tooltip" title="Refresh captcha"><i class="bi bi-arrow-clockwise" style="font-size: 30px; "></i></span>
     
                                         </div>
-                                        <div class="col-md-10 form-group">
+                                        <div class="col-md-8 form-group">
                                             <input type="text" class="form-control" id="captchaINtext" placeholder="enter captcha" required>
                                         </div>
                                         
@@ -1286,7 +1264,6 @@
                                 </form>
                             </div>  
                     </div>
-                    <!-- End Contact Form -->
 
                 </div>
 
