@@ -664,6 +664,10 @@ section {
   color: white;
 }
 
+.aboutus .container{
+  display: flex;
+  flex-direction: column;
+}
 
 .about h3 {
   font-weight: 700;
@@ -3588,6 +3592,15 @@ border-radius: 0px 10px 10px 0px;
     margin-left: 115px;
   }
   
+  .aboutus .container .flex-column-reverse {
+    order: -1; /* Move this column (image) to the top */
+  }
+
+  .abtimage{
+    margin-top: 0px;
+    width: 70%;
+    margin-left: 100px;
+  }
 
 }
 
@@ -3750,6 +3763,9 @@ h4.whychooseus {
   margin-left: 80px;
 }
 
+.abtimage{
+  margin-left: 50px;
+}
 
 }
 
@@ -3767,6 +3783,10 @@ h4.whychooseus {
     margin-bottom: 20px;
     text-align: center;
   }
+  .abtimage{
+    margin-left: 50px;
+  }
+  
 }
 
 
@@ -3784,4 +3804,8 @@ h4.whychooseus {
     margin-bottom: 20px;
     text-align: center;
   }
+  .abtimage{
+    margin-left: 40px;
+  }
+  
 }
