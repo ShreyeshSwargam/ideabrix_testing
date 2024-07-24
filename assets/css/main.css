@@ -4007,24 +4007,30 @@ border-radius: 0px 10px 10px 0px;
    }
    .contact .php-email-form button[type=submit] {
     margin-top: 5px;
-    margin-left: -35px;
+    margin-left: 10px;
   }
-  
+
    
 }
 
 
-@media (min-width: 426px) and (max-width: 574px){
-  #cap{
-    margin-left: 13px;
+@media (max-width: 575.5px) {
+  /* Ensure elements are centered */
+  .centered-elements {
+    text-align: center; /* Center contents horizontally */
   }
-  .bi.bi-arrow-clockwise {
-    margin-left: 230px;
+  .centered-elements #captchadiv {
+    display: inline-block;
+    margin: 0 auto; /* Center #captchadiv horizontally */
   }
-  #btnsave1{
-    margin-left: 25px;
+
+  .centered-elements .bi.bi-arrow-clockwise {
+    display: block; /* Ensure it's a block-level element */
+    margin: 0 auto; /* Center the icon horizontally */
   }
 }
+
+
 
 @media (max-width: 426px) {
 .hero h2 {
@@ -4088,10 +4094,11 @@ h4.whychooseus {
   border-radius: 0px 0px 0px 0px;
 }
 #btnsave1{
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
 }
+
 
 @media (max-width: 376px) {
 
@@ -4124,7 +4131,7 @@ h4.whychooseus {
    }
 
   #btnsave1{
-    margin-left: 25px;
+    margin-left: 0px;
   } 
   
 }
