@@ -103,10 +103,10 @@ function createcaptcha(){
 
     var canvdraw=document.createElement("canvas")
     canvdraw.id="captcha";
-    canvdraw.width=135;
-    canvdraw.height=45;
+    canvdraw.width=125;
+    canvdraw.height=43;
     var ctx = canvdraw.getContext("2d");
-    ctx.font = "25px Georgia";
+    ctx.font = "21px Georgia";
     // ctx.fillStyle = "#499CA6";
     ctx.fillStyle = "#4F6F52";
 
