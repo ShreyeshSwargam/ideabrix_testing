@@ -44,7 +44,6 @@
         }
     </style>
 
-
     <!-- =======================================================
 
     * License: https://bootstrapmade.com/license/
@@ -97,6 +96,7 @@
     </header><!-- End Header -->
     <!-- End Headerrgb(176, 213, 217) -->
     <!-- ======= Hero Section #B0D5D9 #BFBFBF #7bdcb5 #00d084 #8ed1fc new-#fefbe9--scrol-top-#c8ecf0======= -->
+
     <section id="hero" class="hero bckim">
         <div class="container  position-relative">
             <div class="row gy-5 headhero" data-aos="fade-in">
@@ -120,7 +120,7 @@
       </div>
 
     </div> -->
-                    <h2>Building solutions that transform your Ideas into Reality.</h2>
+                    <h2>Building solutions that transform your ideas into Reality.</h2>
                     <!-- <h2>Refine your documents with smart technology.</h2> -->
                     <!-- <p>Smart | Configurable | Dynamic</p> -->
                     <div class="d-flex justify-content-center justify-content-lg-start">
@@ -274,7 +274,6 @@
     <!-- =========end section======== -->
 
         <!-- ======= About Us Section ======= -->
-        
         <section id="about" class="about aboutus">
             <div class="container aos-init aos-animate" data-aos="fade-up">
 
@@ -294,10 +293,15 @@
                             <!-- <h5><i class="bi bi-check-circle-fill"></i>What We Do</h5>
                             <p class="aboutseccont">Craft stunning documents effortlessly with our dynamic application. Seamlessly generate HTML templates and transform them into polished PDFs with just a few clicks. Elevate your document creation process to new heights of efficiency and professionalism. Welcome to the future of document design and generation</p> -->
                             <h5><i class="bi bi-check-circle-fill"></i>What We Offer</h5>
-                            <p class="aboutseccont"><ul>
+                            <!-- <p class="aboutseccont "><ul>
                                 <li><strong class="aboutsub">Software Solutions</strong>: We specialize in developing customized software solutions that align with your business objectives. Whether you need a robust application, enterprise system integration, or cloud solutions, our team of skilled developers and IT experts is dedicated to delivering solutions that meet your unique needs. </li>
                                 <li><strong class="aboutsub">Staffing Services</strong>: Finding the right talent is crucial for organizational success. Our comprehensive staffing services connect businesses with skilled professionals across various domains, ensuring you have the right people to drive your projects forward. From temporary placements to permanent hires, we are committed to finding the perfect fit for your team. </li>
-                            </ul></p>
+                            </ul></p> -->
+
+                            <p class="aboutseccont">
+                             Software Solutions</strong>: We specialize in developing customized software solutions that align with your business objectives. Whether you need a robust application, enterprise system integration, or cloud solutions, our team of skilled developers and IT experts is dedicated to delivering solutions that meet your unique needs.</p>
+                              <p class="aboutseccont"><strong class="aboutsub">Staffing Services</strong>: Finding the right talent is crucial for organizational success. Our comprehensive staffing services connect businesses with skilled professionals across various domains, ensuring you have the right people to drive your projects forward. From temporary placements to permanent hires, we are committed to finding the perfect fit for your team.<br></p>
+
                             <!-- <h5><i class="bi bi-check-circle-fill"></i>Our Promise</h5>
                             <p class="aboutseccont">At Ideabrix, we are dedicated to fostering long-term partnerships built on trust, transparency, and mutual success. Whether you're a startup or an established enterprise, we are here to support your growth journey and help you achieve lasting business impact.</p> -->
                             <!-- <h5><i class="bi bi-check-circle-fill"></i>Our Mission</h5> -->
@@ -1349,7 +1353,41 @@
     <div id="preloader"></div>
     <div id="loader"></div>
 
-    <!-- Vendor JS Files -->
+    <script>
+        const headerHeight = document.querySelector('header').offsetHeight;
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            
+            if (targetElement) {
+                const offsetTop = targetElement.getBoundingClientRect().top + window.pageYOffset;
+                const targetPosition = offsetTop - headerHeight;
+
+                // Calculate the final scroll position
+                const scrollPosition = targetPosition + 40; // Adjust as needed
+                
+                // Scroll to the target position
+                window.scrollTo({
+                    top: scrollPosition,
+                    behavior: 'smooth'
+                });
+
+                // Optional: Set focus on the target element after scrolling
+                // targetElement.focus();
+            }
+        });
+    });
+});
+
+
+   </script>
+    
+   <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -1364,6 +1402,7 @@
     <script src="./js/sweetalert.min.js"></script>
     <script src="js/connection.js" type="text/javascript" ></script>
 
+     
 
 </body>
 

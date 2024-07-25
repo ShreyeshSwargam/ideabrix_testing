@@ -32,6 +32,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   font-family: var(--font-default);
   color: var(--color-default);
@@ -751,9 +752,9 @@ h4.whychooseus{
 }
 
 
-.about .content p:last-child {
+/* .about .content p:last-child {
   margin-bottom: 0;
-}
+} */
 
 .about .play-btn {
   width: 94px;
