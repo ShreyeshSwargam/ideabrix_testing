@@ -3216,8 +3216,9 @@ border-radius: 0px 10px 10px 0px;
 }
 
 .leftform{
-  margin-bottom: 12px;
+  margin-bottom: 12px;  
 }
+
 
 /* ------------------------------------------------------------------------------------------------------- */
 
@@ -3666,7 +3667,7 @@ border-radius: 0px 10px 10px 0px;
  }
 
  .info-container.col-lg-8 {
-  padding-bottom: 11px;
+  padding-bottom: 11.15px;
   margin-top: 23.5px;
  }
 
