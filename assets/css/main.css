@@ -3254,6 +3254,10 @@ border-radius: 0px 10px 10px 0px;
   .info-container.col-lg-4{
     margin-top: 24px;
   } 
+
+  .info-container.col-lg-8{
+    margin: 24px 0px 0px;
+  }
   
   .bi.bi-arrow-clockwise{
     margin-left: -30px;
@@ -3663,7 +3667,7 @@ border-radius: 0px 10px 10px 0px;
 
  .info-container.col-lg-8 {
   padding-bottom: 11px;
-  margin-top: 24px;
+  margin-top: 23.5px;
  }
 
 }
