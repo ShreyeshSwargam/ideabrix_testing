@@ -3947,6 +3947,15 @@ margin-left: 18px;
     padding-left: 0.5rem;
 
   }
+  #btnsave1 {
+    margin-left: -25px;
+}
+.centered-elements .bi.bi-arrow-clockwise {
+  display: block; /* Ensure it's a block-level element */
+  margin: 0 auto; /* Center the icon horizontally */
+  margin-left: 210px;
+}
+
 }
 
 @media (min-width: 700px) {
@@ -4022,7 +4031,12 @@ margin-left: 18px;
   .hero .btn-watch-video {
     font-size: 14px;
   }
-  
+
+  .centered-elements .bi.bi-arrow-clockwise {
+    display: block; /* Ensure it's a block-level element */
+    margin: 0 auto; /* Center the icon horizontally */
+    margin-left: 205px;
+  }
 }
 
 @media(max-width:599px){
@@ -4059,7 +4073,7 @@ margin-left: 18px;
    }
    .contact .php-email-form button[type=submit] {
     margin-top: 5px;
-    /* margin-left: 10px; */
+    margin-left: -10px;
   }
 
   
@@ -4075,11 +4089,13 @@ margin-left: 18px;
   .centered-elements #captchadiv {
     display: inline-block;
     margin: 0 auto; /* Center #captchadiv horizontally */
+    margin-left: -30px;
   }
 
   .centered-elements .bi.bi-arrow-clockwise {
     display: block; /* Ensure it's a block-level element */
     margin: 0 auto; /* Center the icon horizontally */
+    margin-left: -30px;
   }
 
   .form-select{
@@ -4089,6 +4105,9 @@ margin-left: 18px;
   .contact .php-email-form {
     margin-left: 23px;
    }
+   #btnsave1 {
+    margin-left: -25px;
+}
 }
 
 
@@ -4155,12 +4174,24 @@ h4.whychooseus {
   border-radius: 0px 0px 0px 0px;
 }
 #btnsave1{
-  margin-left: 0px;
+  margin-left: -10px;
 }
 
 .contact .php-email-form {
   margin-left: 15px;
  }
+
+ .centered-elements #captchadiv {
+  display: inline-block;
+  margin: 0 auto; /* Center #captchadiv horizontally */
+  margin-left: -30px;
+}
+
+.centered-elements .bi.bi-arrow-clockwise {
+  display: block; /* Ensure it's a block-level element */
+  margin: 0 auto; /* Center the icon horizontally */
+  margin-left: -30px;
+}
 
 }
 
@@ -4201,6 +4232,9 @@ h4.whychooseus {
   .contact .php-email-form {
     margin-left: 15px;
   }
+  #btnsave1 {
+    margin-left: -10px;
+}
 }
 
 
@@ -4235,7 +4269,11 @@ h4.whychooseus {
    }
 
    .contact .php-email-form {
-    margin-left: 9px;
+    margin-left: 15px;
    }
+   #btnsave1 {
+    margin-left: -15px;
+}
   
 }
+
