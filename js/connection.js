@@ -103,15 +103,13 @@ function createcaptcha(){
 
     var canvdraw=document.createElement("canvas")
     canvdraw.id="captcha";
-    canvdraw.width=125;
-    canvdraw.height=43;
+    canvdraw.width=100;
+    canvdraw.height=30;
     var ctx = canvdraw.getContext("2d");
-    ctx.font = "21px Georgia";
+    ctx.font = "22px Georgia";
     // ctx.fillStyle = "#499CA6";
     ctx.fillStyle = "#4F6F52";
 
-    
-    
 
     // Measure the width of the text
     var textWidth = ctx.measureText(captcha.join("")).width;
@@ -120,7 +118,7 @@ function createcaptcha(){
     var xCoordinate = (canvdraw.width - textWidth) / 2;
 
     // Fill the text with red color and center it
-    ctx.fillText(captcha.join(""), xCoordinate, 40);
+    ctx.fillText(captcha.join(""), xCoordinate, 25);
 
     // Add a background color
     // ctx.fillStyle = "lightgray";
