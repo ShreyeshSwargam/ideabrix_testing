@@ -267,7 +267,7 @@ document.getElementById('requestDemoform').addEventListener('submit', function(e
 
     if (!validatePhone(phone)) {
         spinner.style.display = "none";
-        sweetAlert("Invalid phone number. Only numbers are allowed and it must be at least 10 digits.", "", "error");
+        sweetAlert("Invalid phone number. Only numbers & 10 digits are allowed .", "", "error");
         createcaptcha();
         return;
     }
