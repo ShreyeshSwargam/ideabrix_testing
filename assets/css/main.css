@@ -3236,6 +3236,37 @@ border-radius: 0px 10px 10px 0px;
   font-size: 14px; /* Ensure option text is same size as select */
 }
 
+#attributions{
+  margin: 45px 0px;
+}
+
+#attributions .row h1{
+  text-align: center;
+  color: #f37033;
+}
+
+#attributions .row .image-container a{
+  color: #f37033;
+  text-align: right;
+}
+
+#attributions .image-container {
+  padding: 50px; /* Space around each image */
+}
+
+#attributions .image-container img {
+  width: 100%; /* Ensure images fill the column */
+  height: 100%; /* Maintain aspect ratio */
+  border-radius: 5px; /* Optional: rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow effect */
+}
+
+#attributions .image-container a.freepik {
+  display: block; /* Ensure link takes full width */
+  text-align: center; /* Center-align text within the link */
+  margin-top: 10px; /* Space between image and link */
+}
+
 /* ------------------------------------------------------------------------------------------------------- */
 
 
@@ -3751,7 +3782,6 @@ margin-left: 18px;
   width: 199%;
 }
 
-
 }
 
 @media (max-width: 991.5px) {
@@ -3778,7 +3808,18 @@ margin-left: 18px;
   width: 198%;
 }
 
+#attributions .image-container {
+  padding: 35px; /* Space around each image */
+}
 
+#attributions .image-container a.freepik {
+  font-size: 14px;
+}
+
+#attributions .image-container img {
+  width: 110%; /* Ensure images fill the column */
+  height: 90%; /* Maintain aspect ratio */
+  }
 
 }
 
@@ -3889,6 +3930,17 @@ margin-left: 18px;
 .form-control{
   width: 90%;
 }
+
+#attributions .image-container img {
+  width: 100%; /* Ensure images fill the column */
+  height: 80%; /* Maintain aspect ratio */
+  }
+
+
+  #attributions .image-container {
+    padding: 10px 100px; /* Space around each image */
+  }
+
 }
 
 
@@ -3909,7 +3961,7 @@ margin-left: 18px;
       border-radius: 10px;
       padding: 2rem;
   }
-
+  
 }
 
 @media (max-width: 767px) {
@@ -3947,6 +3999,15 @@ margin-left: 18px;
     padding-left: 0.5rem;
 
   }
+  #btnsave1 {
+    margin-left: -25px;
+}
+.centered-elements .bi.bi-arrow-clockwise {
+  display: block; /* Ensure it's a block-level element */
+  margin: 0 auto; /* Center the icon horizontally */
+  margin-left: 210px;
+}
+
 }
 
 @media (min-width: 700px) {
@@ -4022,7 +4083,12 @@ margin-left: 18px;
   .hero .btn-watch-video {
     font-size: 14px;
   }
-  
+
+  .centered-elements .bi.bi-arrow-clockwise {
+    display: block; /* Ensure it's a block-level element */
+    margin: 0 auto; /* Center the icon horizontally */
+    margin-left: 205px;
+  }
 }
 
 @media(max-width:599px){
@@ -4059,7 +4125,7 @@ margin-left: 18px;
    }
    .contact .php-email-form button[type=submit] {
     margin-top: 5px;
-    /* margin-left: 10px; */
+    margin-left: -10px;
   }
 
   
@@ -4075,11 +4141,13 @@ margin-left: 18px;
   .centered-elements #captchadiv {
     display: inline-block;
     margin: 0 auto; /* Center #captchadiv horizontally */
+    margin-left: -30px;
   }
 
   .centered-elements .bi.bi-arrow-clockwise {
     display: block; /* Ensure it's a block-level element */
     margin: 0 auto; /* Center the icon horizontally */
+    margin-left: -30px;
   }
 
   .form-select{
@@ -4089,6 +4157,9 @@ margin-left: 18px;
   .contact .php-email-form {
     margin-left: 23px;
    }
+   #btnsave1 {
+    margin-left: -25px;
+}
 }
 
 
@@ -4155,12 +4226,24 @@ h4.whychooseus {
   border-radius: 0px 0px 0px 0px;
 }
 #btnsave1{
-  margin-left: 0px;
+  margin-left: -10px;
 }
 
 .contact .php-email-form {
   margin-left: 15px;
  }
+
+ .centered-elements #captchadiv {
+  display: inline-block;
+  margin: 0 auto; /* Center #captchadiv horizontally */
+  margin-left: -30px;
+}
+
+.centered-elements .bi.bi-arrow-clockwise {
+  display: block; /* Ensure it's a block-level element */
+  margin: 0 auto; /* Center the icon horizontally */
+  margin-left: -30px;
+}
 
 }
 
@@ -4201,6 +4284,14 @@ h4.whychooseus {
   .contact .php-email-form {
     margin-left: 15px;
   }
+  #btnsave1 {
+    margin-left: -10px;
+}
+
+#attributions .image-container a.freepik {
+  font-size: 13px;
+} 
+
 }
 
 
@@ -4235,7 +4326,16 @@ h4.whychooseus {
    }
 
    .contact .php-email-form {
-    margin-left: 9px;
+    margin-left: 15px;
    }
+   #btnsave1 {
+    margin-left: -15px;
+}
+
+#attributions .image-container a.freepik {
+  font-size: 12px;
+  margin-bottom: 10px;
+} 
   
 }
+
