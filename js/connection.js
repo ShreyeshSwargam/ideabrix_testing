@@ -350,7 +350,7 @@ function validateName(name) {
 }
 
 function validatePhone(phone) {
-    var phoneRegex = /^\d{10,}$/;
+    var phoneRegex = /^\d{10,12}$/;
     return phoneRegex.test(phone);
 }
 
