@@ -419,54 +419,7 @@ document.getElementById('requestDemoform').addEventListener('submit', function(e
     var email = document.getElementById('txtEmail').value;
     var message = document.getElementById('txtMessage').value;
     var drop_down = document.getElementById('support').value;
-<<<<<<< HEAD
     var captchaInputText = document.getElementById("captchaINtext").value;
-=======
-
-    // Validation
-    if (!validateName(name)) {
-        spinner.style.display = "none";
-        sweetAlert("Invalid name. Only letters are allowed.", "", "error");
-        createcaptcha();
-        return;
-    }
-
-    if (!validatePhone(phone)) {
-        spinner.style.display = "none";
-        sweetAlert("Invalid phone number. Only numbers & 10 digits are allowed .", "", "error");
-        createcaptcha();
-        return;
-    }
-
-    if (!validateCompanyName(companyname)) {
-        spinner.style.display = "none";
-        sweetAlert("Invalid company name. Special characters are not allowed.", "", "error");
-        createcaptcha();
-        return;
-    }
-
-    if (!validateEmail(email)) {
-        spinner.style.display = "none";
-        sweetAlert("Invalid email address.", "", "error");
-        createcaptcha();
-        return;
-    }
-
-    if (!validateMessage(message)) {
-        spinner.style.display = "none";
-        sweetAlert("Invalid message. Special characters are not allowed.", "", "error");
-        createcaptcha();
-        return;
-    }
-
-    var captchainputtext = document.getElementById("captchaINtext").value;
-    if (captchainputtext !== code) {
-        spinner.style.display = "none";
-        sweetAlert("Invalid Captcha", "", "error");
-        createcaptcha();
-        return;
-    }
->>>>>>> origin/main
 
     // Prepare data for POST request
     var formData = {
@@ -516,35 +469,6 @@ document.getElementById('requestDemoform').addEventListener('submit', function(e
     });
 });
 
-<<<<<<< HEAD
-=======
-// Validation functions
-function validateName(name) {
-    var nameRegex = /^[A-Za-z\s]+$/;
-    return nameRegex.test(name);
-}
-
-function validatePhone(phone) {
-    var phoneRegex = /^\d{10,12}$/;
-    return phoneRegex.test(phone);
-}
-
-function validateCompanyName(companyname) {
-    var companynameRegex = /^[A-Za-z\s]+$/;
-    return companynameRegex.test(companyname);
-}
-
-function validateEmail(email) {
-    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailRegex.test(email);
-}
-
-function validateMessage(message) {
-    var messageRegex = /^[A-Za-z0-9\s.,!?]+$/;  // Adjust regex to allow or disallow special characters
-    return messageRegex.test(message);
-}
-
->>>>>>> origin/main
 var code;
 function createcaptcha() {
     // Clear the captcha div first
